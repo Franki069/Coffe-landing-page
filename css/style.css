@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Send Flowers', cursive;
+    text-align: center;
+}
+    
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.intro-image__link a {
+    background-color: rgba(171, 176, 177, 0.733);
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.5);
+}
+
+.intro-text {
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0.5rem;
+
+}
+
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a{
+    background-color: rgba(171, 176, 177, 0.868);
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2)
+}
+
+.quality-text {
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0.5rem
+
+}
+
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.footer{
+    background-color: bisque;
+    height: 150px;
+    color: black;
+    padding-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+    }
+
+.footer ul li a:hover{
+    color: blue;
+    display: inline-block;
+    transform: scale(1.2)
+    }
+
+.origin-image{
+    background-attachment: fixed;
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a{
+    background-color: rgb(171, 176, 177);
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2)
+}
+
+.origin-text {
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0.5rem
+}
+
+.origin-text__textbox{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
